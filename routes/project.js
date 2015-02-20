@@ -26,3 +26,7 @@ exports.deleteProject = function(req, res) {
   // find the project and remove it
   // YOU MUST send an OK response w/ res.send();
 }
+exports.findProject = function(req, res) {
+  var projectID = req.params.
+}
+
